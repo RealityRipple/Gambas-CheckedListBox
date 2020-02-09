@@ -1,0 +1,27 @@
+' Gambas class file
+
+Public Sub chkEnable_Click()
+
+  CheckedListBox1.Enabled = chkEnable.Value
+
+End
+
+Public Sub chkMultiSelect_Click()
+
+  If chkMultiSelect.value Then
+    CheckedListBox1.Mode = 2
+  Else
+    CheckedListBox1.Mode = 1
+  Endif
+
+End
+
+Public Sub chkAll_Click()
+
+  If chkAll.Value Then
+    CheckedListBox1.CheckAll
+  Else
+    CheckedListBox1.UncheckAll
+  Endif
+
+End

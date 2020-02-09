@@ -1,0 +1,5 @@
+[Component]
+Key=CheckedListBox
+Version=1.0.0
+Authors=RealityRipple Software
+Needs=Form

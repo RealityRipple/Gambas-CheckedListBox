@@ -1,0 +1,7 @@
+' Gambas module file
+
+Public Sub Main()
+
+  Message.Info("CheckedListBox Gambas Component v" & Application.Version & "\nCreated by RealityRipple Software\n\nNo gambas were harmed in the making of this component.", "Close")
+
+End
